@@ -1,0 +1,159 @@
+/* about us */
+.about-us .content-container {
+  padding-top: 90px;
+  padding-bottom: 71px;
+}
+
+.about-us .section-title {
+  max-width: 374px;
+  padding-bottom: 50px;
+}
+
+.rooms-grid .grid-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.rooms-grid .item-body {
+  background: #F8F8F8;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 35px;
+  /* padding-bottom: 35px; */
+  padding-left: 16px;
+  padding-right: 43px;
+}
+
+.grid-item .item-btn {
+  max-height: 190px;
+}
+
+
+/* check in bar */
+.check-in__grid input {
+  background: #fff;
+  padding: 0 17px;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.check-in__grid input::placeholder {
+  color: #CECECE;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+.check-in__btn img {
+  max-height: 50px;
+  display: block;
+}
+
+/* check in bar resposnive */
+@media (max-width: 990px) {
+  #hero .check-in__bar input {
+    width: 180px;
+  }
+
+  .check-in__grid input {
+    height: 40px;
+  }
+
+  .check-in__grid .check-in__btn img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  #hero .check-in__bar input {
+    padding: 10px;
+    width: 133px;
+    height: 40px;
+  }
+
+  .check-in {
+    display: none;
+  }
+}
+
+
+
+/* about us responsive */
+@media (max-width: 1200px) {
+  .rooms-grid .item-body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 990px) {
+  .rooms-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rooms-grid .item-body {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 760px) {
+  .about-us .section-title {
+    font-size: 30px;
+  }
+
+  .rooms-grid .item-btn {
+    display: none;
+  }
+
+  .rooms-grid .item-body {
+    padding-top: 35px;
+  }
+}
+
+@media (max-width: 580px) {
+  .grid-item .item-body {
+    padding-right: 42px;
+  }
+
+  .rooms-grid .grid-item {
+    background: #F8F8F8;
+    border: 1px solid #5863F8;
+  }
+  
+  .grid-item .button {
+    display: none;
+  }
+}
+
+@media (max-width: 475px) {
+
+  .rooms-grid .item-description {
+    max-width: 260px;
+  }
+
+  .about-us .section-title {
+    font-size: 24px;
+  }
+
+  .rooms-grid .item-body {
+    padding-top: 27px;
+  } 
+
+  .rooms-grid .grid-item  {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+}

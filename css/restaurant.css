@@ -1,0 +1,286 @@
+.visit-restaurant .images-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: flex-end;
+  row-gap: 16px;
+  column-gap: 16px;
+  max-height: 461px;
+  max-width: 536px;
+}
+
+.images-grid .stairs {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.images-grid .lobby {
+  align-self: center;
+}
+
+.visit-restaurant .section-title {
+  max-width: 444px;
+  padding-bottom: 15px;
+}
+
+.visit-restaurant .read-more__btn {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  background: #5863F8;
+  display: inline-block;
+  padding: 15px 45px;
+  transition: 0.3s ease-in;
+}
+
+.visit-restaurant .read-more__btn p {
+  display: flex;
+  align-items: center;
+}
+
+.visit-restaurant .read-more__btn img {
+  padding-left: 10px;
+}
+
+.visit-restaurant .read-more__btn:hover {
+  background: #6db970;
+}
+
+.visit-restaurant .content-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 93px;
+  align-items: center;
+  padding-top: 90px;
+}
+
+
+/* visit restaurant responsive */
+@media (max-width: 1200px) {
+  .visit-restaurant .content-container {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  .visit-restaurant .images-grid {
+    justify-self: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .visit-restaurant .about-us__1 {
+    font-size: 15px;
+  }
+
+  .visit-restaurant .about-us__2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 990px) {
+  .visit-restaurant .section-title {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  .visit-restaurant .read-more__btn {
+    padding: 11px 27px;
+  }
+}
+
+@media (max-width: 580px) {
+  .visit-restaurant .images-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visit-restaurant .images-grid {
+    max-height: none;
+  }
+}
+
+
+/* restaurant */
+#restaurant .content-container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  box-shadow: 0px 2px 23px -6px #818181;
+}
+
+.menu-item a {
+  text-decoration: none;
+  max-height: 190px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.menu-grid .item-body {
+  padding-left: 16px;
+  position: relative;
+  padding-top: 36px;
+  padding-bottom: 33px;
+  background: #F8F8F8;
+  width: 100%;
+}
+
+.menu-grid .item-body img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+}
+
+.menu-grid .item-description {
+  max-width: 241px;
+}
+
+.menu-grid .item-about {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.menu-grid .item-description {
+  color: #B1B1B1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#restaurant .section-title {
+  max-width: 498px;
+  padding-bottom: 50px;
+}
+
+/* restaurant responsive */
+@media (max-width: 1200px) {
+  #restaurant .content-container {
+    max-width: 960px;
+  }
+
+  .menu-grid .item-body {
+    padding-top: 21px;
+    padding-bottom: 50px
+  }
+
+  .menu-grid .item-btn {
+    width: 45px;
+  }
+}
+
+@media (max-width: 990px) {
+  #restaurant .content-container {
+    max-width: 720px;
+  }
+
+  #restaurant .menu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-grid .menu-item {
+    max-width: 90%;
+  }
+
+  #restaurant .section-title {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 760px) {
+  #restaurant .content-container {
+    max-width: 540px;
+  }
+
+  .menu-grid .menu-item {
+    max-width: none;
+  }
+
+}
+
+@media (max-width: 580px) {
+  #restaurant .content-container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+@media (max-width: 475px) {
+  .menu-grid .menu-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-grid .menu-item>img {
+    padding-bottom: 16px;
+  }
+
+  .menu-grid .item-description {
+    max-width: none;
+  }
+}
+
+/* check in bar */
+.check-in__grid input {
+  background: #fff;
+  padding: 0 17px;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.check-in__grid input::placeholder {
+  color: #CECECE;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+
+.check-in__btn img {
+  max-height: 50px;
+  display: block;
+}
+
+/* check in bar resposnive */
+@media (max-width: 990px) {
+  #hero .check-in__bar input {
+    width: 180px;
+  }
+
+  .check-in__grid input {
+    height: 40px;
+  }
+
+  .check-in__grid .check-in__btn img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 760px) {
+  #hero .check-in__bar input {
+    padding: 10px;
+    width: 133px;
+    height: 40px;
+  }
+
+  .check-in {
+    display: none;
+  }
+}
