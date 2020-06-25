@@ -109,7 +109,7 @@ body {
   font-weight: 500;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease-in;
-  -webkit-backface-visibility: hidden;
+  z-index: 50;
 }
 
 #hero-second .page-nav a:hover {
@@ -177,7 +177,7 @@ body {
   text-decoration: none;
   transition: 0.3s ease-in border-bottom;
   border-bottom: 1px solid transparent;
-  -webkit-backface-visibility: hidden;
+  z-index: 50;
 }
 
 .nav-list a:hover {
@@ -452,7 +452,7 @@ body {
   background: #5863F8;
   opacity: 0.4;
   transition: opacity 0.3s ease-out;
-  -webkit-backface-visibility: hidden;
+  z-index: 50;
 }
 
 .photos-flex .arrow:hover {
@@ -580,7 +580,7 @@ footer .link-list__title {
 
 .links-group a {
   transition: color 0.1s ease-in;
-  -webkit-backface-visibility: hidden;
+  z-index: 50;
 }
 
 .links-group a:hover {
@@ -589,7 +589,7 @@ footer .link-list__title {
 
 .links-group p {
   transition: color 0.1s ease-in;
-  -webkit-backface-visibility: hidden;
+  z-index: 50;
 }
 
 .links-group p:hover {
@@ -643,7 +643,7 @@ footer .links-wrap {
 
 .copyright-portfolio__wrap .portfolio {
   transition: color 0.2s ease-in;
-  -webkit-backface-visibility: hidden;
+  z-index: 50;
 }
 
 .copyright-portfolio__wrap .portfolio:hover {
