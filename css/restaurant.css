@@ -32,6 +32,7 @@
   display: inline-block;
   padding: 15px 45px;
   transition: background 0.3s ease-in;
+  -webkit-backface-visibility: hidden;
 }
 
 .visit-restaurant .read-more__btn p {
@@ -111,6 +112,7 @@
   align-items: center;
   transition: box-shadow 0.2s ease-in;
   text-decoration: none;
+  -webkit-backface-visibility: hidden;
 }
 
 .menu-item:hover {

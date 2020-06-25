@@ -48,6 +48,7 @@
 .check-in__wrap .check-in__nav a {
   opacity: 0.6;
   transition: opacity 0.3s ease-in;
+  -webkit-backface-visibility: hidden;
 }
 
 .check-in__wrap .check-in__nav a:hover {
@@ -201,6 +202,7 @@
   padding: 15px 45px;
   transition: background 0.3s ease-in;
   background: #5863F8;
+  -webkit-backface-visibility: hidden;
 }
 
 #about-us .read-more__btn:hover {
@@ -389,6 +391,7 @@
   background: #ccc;
   opacity: 0.5;
   transition: background 0.2s ease-in;
+  -webkit-backface-visibility: hidden;
 }
 
 .nav-wrap a {
@@ -537,6 +540,7 @@
   opacity: 0.5;
   transition: 0.2s ease-in;
   transition-property: opacity, background;
+  -webkit-backface-visibility: hidden;
 }
 
 
@@ -583,6 +587,7 @@
 #testimonials .nav-btn__wrap a {
   opacity: 0.8;
   transition: opacity 0.4s ease-in;
+  -webkit-backface-visibility: hidden;
 }
 
 #testimonials .nav-btn__wrap a:hover {
@@ -682,6 +687,7 @@
   align-items: center;
   transition: box-shadow 0.2s ease-in;
   text-decoration: none;
+  -webkit-backface-visibility: hidden;
 }
 
 .menu-item:hover {
@@ -829,6 +835,7 @@
 #blog .blog-grid .grid-link {
   transition: 0.2s ease-in;
   transition-property: box-shadow, transform;
+  -webkit-backface-visibility: hidden;
 }
 
 #blog .blog-grid .grid-link:hover {
