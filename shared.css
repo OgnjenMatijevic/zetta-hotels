@@ -108,7 +108,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   border-bottom: 1px solid transparent;
-  transition: 0.3s ease-in;
+  transition: border-bottom 0.3s ease-in;
 }
 
 #hero-second .page-nav a:hover {
@@ -174,7 +174,7 @@ body {
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
-  transition: 0.3s ease-in border;
+  transition: 0.3s ease-in border-bottom;
   border-bottom: 1px solid transparent;
 }
 
@@ -449,7 +449,7 @@ body {
   padding: 23px;
   background: #5863F8;
   opacity: 0.4;
-  transition: 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
 }
 
 .photos-flex .arrow:hover {
@@ -576,7 +576,7 @@ footer .link-list__title {
 }
 
 .links-group a {
-  transition: 0.1s ease-in;
+  transition: color 0.1s ease-in;
 }
 
 .links-group a:hover {
@@ -584,7 +584,7 @@ footer .link-list__title {
 }
 
 .links-group p {
-  transition: 0.1s ease-in;
+  transition: color 0.1s ease-in;
 }
 
 .links-group p:hover {
@@ -637,7 +637,7 @@ footer .links-wrap {
 }
 
 .copyright-portfolio__wrap .portfolio {
-  transition: 0.2s ease-in;
+  transition: color 0.2s ease-in;
 }
 
 .copyright-portfolio__wrap .portfolio:hover {
