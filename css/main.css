@@ -156,6 +156,21 @@
 }
 
 
+@media (max-width: 580px) {
+  #hero .check-in__wrap {
+    display: none;
+  }
+
+  #hero {
+    height: 100vh;
+  }
+
+  #hero .content-container .main-hero__text {
+    top: 50vh;
+  }
+}
+
+
 @media (max-width: 500px) {
   #hero .check-in__bar input {
     padding: 10px;
@@ -334,6 +349,12 @@
   #about-us .content-container {
     padding-top: 110px;
   }
+
+  
+  #about-us .images-wrap img {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 /* about us 2 */
@@ -481,6 +502,10 @@
 @media (max-width: 475px) {
   #additional-about .section-title__white {
     font-size: 35px;
+  }
+
+  .features-grid .feature {
+    max-width: 100%;
   }
 }
 
@@ -846,6 +871,12 @@
 .blog-grid .grid-item {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 370px) {
+  .menu-grid .item-description {
+    max-width: 254px;
+  }
 }
 
 
