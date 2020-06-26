@@ -8,6 +8,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.clean-transition * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
+
+
 /* utility - global css */
 .content-container {
   max-width: 1088px;
